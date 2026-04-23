@@ -1,13 +1,11 @@
-name: carpentries
+name: dc-image
 channels:
   - conda-forge
 dependencies:
-  - ipykernel
-  - jupyter
+  - python>=3.11
   - jupyterlab
-  - matplotlib
   - numpy
-  - pandas
-  - plotnine
-  - plotly
-  - seaborn
+  - matplotlib
+  - scikit-image
+  - ipympl
+  - imageio
